@@ -1,0 +1,30 @@
+
+    จัดการเส้นขอบ (Border)
+    * ขนาดเส้นขอบ (Border Width)
+        - class:
+            border-size
+            border-{t|r|b|l}-size 
+
+    * สีเส้นขอบ (Border Color)
+        - class:
+            border-[ชื่อสี]-[ความเข้มสี]
+
+    * ความโค้งเส้นขอบ (Border Redius)
+        - class:
+            - rounded-[ขนาด]
+            - rounded-[ด้าน]-[ขนาด]
+        - example:
+            - rounded
+            - rounded-sm
+            - rounded-md
+            - rounded-lg
+            - rounded-2xl
+            - rounded-3xl
+            - rounded-full
+            - rounded-t-md
+            - rounded-b-md
+            - rounded-r-md
+            - rounded-l-md
+
+    * รูปแบบเส้รขอบ (Border Style)
+
