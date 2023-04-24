@@ -7,3 +7,17 @@
             - กำหนดขนาดให้พอดีกับพื้นที่ว่างโดนอัตโนมัติ (Sizing)
 
         * องค์ประกอบของ Flexbox คือ container และ item
+
+        * Flex Direction
+        - เป็นการกำหนดทิศทางของ element
+        - class:
+            - row               จัดการ items ในแนวนอนให้เรียงตามแกนหลัก
+            - row-reverse       จัดการ items ในแนวนอนให้เรียงตรงกันข้ามกับแกนหลัก
+            - column            จัดการ items ในแนวตั้งทิศทางเดียวกับแกนหลัก
+            - column-reverse    จัดการ items ในแนวตั้งให้เรียงตรงกันข้ามกับแกนหลัก
+        - example:
+            - flex-row-reverse
+            - flex-col
+            - flex-col-reverse
+
+    https://youtu.be/8ey9-wWUJEE?t=6509
