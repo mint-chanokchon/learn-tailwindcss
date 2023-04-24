@@ -20,4 +20,9 @@
             - flex-col
             - flex-col-reverse
 
-    https://youtu.be/8ey9-wWUJEE?t=6509
+        * Wrap FlexItem
+        - กรณีที่ขนาด items ใหญ่กว่าพื้นที่ container
+        - class:
+            - nowrap        จัดวาง items ที่เกินพื้นที่ container ไปด้านขวามือ
+            - wrap          จัดวาง item ที่เกินพื้นที่ container เรียงจากบนลงล่าง
+            - wrap-reverse  จัดวาง item ที่เกินพื้นที่ container เรียงจากล่างขี่นบน  
