@@ -1,0 +1,19 @@
+
+    * สีข้อความ (Color)
+        - class: text-[ชื่อสี]-[ความเข้มสี]
+        - example: text-red-300, text-yellow-900
+
+    * ขนาดข้อความ (Size)
+        - class: text-[รูปแบบ]
+
+    * รูปแบบข้อความ (Style)
+        - font-italic   ตัวเอียง
+        - uppercase     ตัวพิมพ์ใหญ่
+        - lowercase     ตัวพิมพ์เล็ก
+        - capitalize    ตัวอักษรตัวแรกเป็นพิมพ์ใหญ่
+
+    * ความหนาข้อความ (Weight)
+
+    * ตำแหน่งข้อความ (Alignment)
+
+    https://youtu.be/8ey9-wWUJEE?t=2147

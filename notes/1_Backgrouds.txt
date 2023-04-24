@@ -1,0 +1,4 @@
+
+    * Background colors
+        - class: bg-[ชื่อสี]-[ความเข้มสี]
+        - example: bg-red-300, bg-yellow-900

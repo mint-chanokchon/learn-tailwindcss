@@ -1,0 +1,16 @@
+
+    @tailwind base;
+        - จัดการ element (tag)
+
+    @tailwind components;
+        - จัดการ class
+
+    @tailwind utilities; 
+        - จัดการการปรับแต่ง class ที่อยู่ใน tailwind
+
+    Command
+        - npm i -D tailwindcss  ติดตั้ง tailwind
+        - npx tailwindcss init  สร้างโปรเจค tailwind
+        - npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+    
