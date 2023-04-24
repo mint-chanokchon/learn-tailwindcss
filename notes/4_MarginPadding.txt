@@ -1,0 +1,37 @@
+
+    Margin
+        กำหนดระยะห่างจากเส้นขอบหรือพื้นที่ภายนอกของ Element เทียบกับวัตถุอื่น ๆ โดยกำหนดได้ทั้ง 4 ด้าน (ช่องว่างข้างนอก)
+        คำสั่ง:
+            * ทิศทางเดียว
+                - m{t|r|b|l}-{size}
+                - t = top
+                - b = bottom
+                - l = left
+                - r = right
+            * แนวนอน (x = left, right)
+                - mx-{size}
+            * แนวตั้ง (y = top, bottom)
+                - my-{size}
+            * ทุกทิศทาง
+                - m-{size}
+
+    
+    Padding
+        กำหนดพื้นที่ระยะห่างภายใน Element โดยกำหนดได้ทั้ง 4 ด้าน (ช่องว่างข้างใน)
+        คำสั่ง: 
+            คำสั่ง:
+            * ทิศทางเดียว
+                - p{t|r|b|l}-{size}
+                - t = top
+                - b = bottom
+                - l = left
+                - r = right
+            * แนวนอน (x = left, right)
+                - px-{size}
+            * แนวตั้ง (y = top, bottom)
+                - py-{size}
+            * ทุกทิศทาง
+                - p-{size}
+
+
+    * 1 = 4px;
