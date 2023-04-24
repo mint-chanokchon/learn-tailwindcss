@@ -1,0 +1,26 @@
+
+    Responsive Web Design
+
+    * Container (กล่องบรรจุ Element)
+        - เป็นกล่องสำหรับเก็บเนื้อหาหรือส่วนประกอบต่าง ๆ ไว้ภายใน มีขนาดตายตัวอยู่กลางจอ
+        - class: container
+
+    * Breakpoint
+        - จุดที่ทำให้หน้าเว็บเพจปรับขนาดตามอุปกรณ์ต่าง ๆ
+        - example:
+            - sm    -> 640px
+            - md    -> 768px
+            - lg    -> 1024px
+            - xl    -> 1280px
+            - 2xl   -> 1536px
+
+    ช่วงแต่ละขนาดอุปกรณ์
+        - 320px ~ 480px     -> Mobile Devices
+        - 481px ~ 768px     -> iPads, Tablets
+        - 769px ~ 1024px    -> Laptops
+        - 1025px ~ 1200px   -> Desktop
+        - 1201px ~ เป็นต้นไป -> TV, Widescreen
+
+    <div class="container bg-red-500 mx-auto">
+        <h1 class="text-4xl sm:text-yellow-500 md:text-red-500">Heading</h1>
+    </div>
