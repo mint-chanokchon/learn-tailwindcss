@@ -1,0 +1,6 @@
+
+    ความกว้างและความสูง
+    - w คือ กำหนดความกว้าง (width)
+    - h คือ กำหนดความสูง (height)
+
+    https://tailwindcss.com/docs/width

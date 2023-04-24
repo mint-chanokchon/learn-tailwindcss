@@ -5,15 +5,34 @@
 
     * ขนาดข้อความ (Size)
         - class: text-[รูปแบบ]
+        - example:
+            - text-sm       ขนาด sm
+            - text-base     ขนาดปกติ
+            - text-lg       ขนาด lg
+            - text-xl       ขนาด xl
+            - text-2xl      ขนาด xxl
+            - text-4xl      ขนาด 4xl
 
     * รูปแบบข้อความ (Style)
-        - font-italic   ตัวเอียง
+        - italic   ตัวเอียง
         - uppercase     ตัวพิมพ์ใหญ่
         - lowercase     ตัวพิมพ์เล็ก
         - capitalize    ตัวอักษรตัวแรกเป็นพิมพ์ใหญ่
 
     * ความหนาข้อความ (Weight)
+        - class: font-[รูปแบบ]
+        - example:
+            - font-thin     ทำให้เป็นตัวบาง
 
     * ตำแหน่งข้อความ (Alignment)
+        - clas: text-[รูปแบบ]
+        - Example: 
+            - text-center (กลาง)
+            - text-right (ขวา)
+            - text-left (ซ้าย)
+
+    * ความโปร่งใส (opacity)
+        - class: text-opacity-ค่าความโปร่งใส
+        - example: text-opacity-0, text-opacity-50, text-opacity-100
 
     https://youtu.be/8ey9-wWUJEE?t=2147
