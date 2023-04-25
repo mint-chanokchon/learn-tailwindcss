@@ -1,0 +1,35 @@
+
+    Grid layout
+    - layout ที่ใช้ควบคุมและจัดสรรพื้นที่ให้วัตถุต่าง ๆ ในหน้าเว็บ โดยองค์ประกอบของ grid จะแบ่งได้เป็น 2 ส่วน คือ
+        - row (แถว)
+        - Column (คอลัมน์)
+    class:
+        - grid-cols-[number]    แบ่ง column ภายใน
+        - grid-rows-[number]    แบ่ง rows ภายใน
+        - gap-[number]          เว้นระยะห่างของ item ภายใน grid
+
+    * Gap
+    - การกำหนดช่องว่างหรือระยะห่างระหว่าง items
+    - class: 
+        - gap-size (กำหนดช่องว่างแนวตั้งแนวนอน)
+        - gap-x-size (กำหนดช่องว่างแนวนอน)
+        - gap-y-size (กำหนดช่องว่างแนวตั้ง)
+    
+    * justify items
+    - จัดการ items ทุกตัวที่อยู่ในแถว โดยเป็นการจัดวาง items ทั้งหมด
+    - class:
+        - start     ชิดซ้าย
+        - center    กึ่งกลาง
+        - end       ชิดขวา
+        - stretch   ปรับขนาด item ทั้งหมดให้เต็มพื้นที่
+    - example:
+        - justify-items-start       เรียงแนวตั้งชิดซ้าย
+        - justify-items-center      เรียงแนวตั้งกลาง
+        - justify-items-end         เรียงแนวตั้งชิดขวา
+        - justify-items-stretch     ขยายให้เต็มพื้นที่
+
+    * justify selt
+    - จัดตำแหน่ง item ที่่สนใจให้อยู่ในพื้นที่ที่ต้องการ โดยจัดแค่ item ที่ระบุ
+        - start     ชิดซ้าย
+        - center    กึ่งกลาง
+        - end       ชิดขวา
