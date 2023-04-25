@@ -1,0 +1,13 @@
+
+    components
+    ใช้จัดการ class ย่อย ๆ โดยจะนำ class ย่อย ๆ มาเขียนรวมกันภายใน class ๆ เดียว
+
+    * Example
+        (1) -> index.html
+        <a class="text-green-500">Menu</a>
+        <a class="text-green-500">Menu</a>
+        <a class="text-green-500">Menu</a>
+
+    @layer base {
+        .button text-green-500 rounded-lg
+    }
