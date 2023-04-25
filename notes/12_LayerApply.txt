@@ -1,0 +1,20 @@
+
+    Layer & Apply
+
+    * Utility-First CSS Framework
+        เป็นการจัดการโดยตรงกับ element ที่เป็น class ย่อย ๆ มาประกอบกันในภายหลังและเพื่อสะดวกในการใช้งาน Class ย่อย ๆ ซ้ำกันใน TailWind CSS
+        จะใช้คำสั่ง @apply เพื่อรวม Class และสร้าง class ใหม่ได้
+
+    * Example
+        (1) -> index.html
+        <a class="text-green-500">Menu</a>
+        <a class="text-green-500">Menu</a>
+        <a class="text-green-500">Menu</a>
+
+    ใช้ layer มาปรับแต่งกระบวนการทำงานของ tag โดยประกาศไว้ใน input.css
+    @layer base {
+        // ให้เท็ค a มีสีเขียวเหมือนกันทุก ๆ อัน
+        a {
+            @apply text-green-500
+        }
+    }
